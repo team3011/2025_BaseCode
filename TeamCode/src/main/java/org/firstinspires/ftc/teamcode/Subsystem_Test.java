@@ -1,6 +1,5 @@
 package org.firstinspires.ftc.teamcode;
 
-
 import com.acmerobotics.dashboard.FtcDashboard;
 import com.acmerobotics.dashboard.config.Config;
 import com.qualcomm.robotcore.eventloop.opmode.Autonomous;
@@ -33,7 +32,7 @@ public class Subsystem_Test extends OpMode {
         // Initialize the hardware variables. Note that the strings used here as parameters
         // to 'get' must correspond to the names assigned during the robot configuration
         // step (using the FTC Robot Controller app on the phone).
-        this.motor0 = motor0 = hardwareMap.get(DcMotorEx.class,"backLeft");
+        this.motor0 = hardwareMap.get(DcMotorEx.class,"backLeft");
 
         // Tell the driver that initialization is complete.
         dashboardTelemetry.addData("Status", "Initialized");
